@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/css/tourist.css">
+    <title>Document</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <div class="container">
+            <a class="navbar-brand" href="#">HOHOHO</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="center">
+                <div class="collapse navbar-collapse center" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="./home.html" onclick="loading()">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./profile.html" onclick="loading();">Profile</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./hometown.html" onclick="loading()">Hometown</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./food.html" onclick="loading()">Food</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./tourist.html" onclick="loading()">Tourist</a>
+                    </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="row">
+        <div class="col-6">
+            <div class="slideshow">
+                <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                      <div class="carousel-item active" data-bs-interval="5000">
+                        <img src="./assets/img/wisata/pantai-ngulungwetan.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                          <h5 style="color: white;">Pantai Ngulungwetan</h5>
+                        </div>
+                      </div>
+                      <div class="carousel-item" data-bs-interval="2000">
+                        <img src="./assets/img/wisata/Pantai-Pelang-Trenggalek.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                          <h5>Pantai Pelang</h5>
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <img src="./assets/img/wisata/prigi.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                          <h5>Pantai Prigi</h5>
+                          
+                        </div>
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+            </div>
+        </div>
+        <div class="col-6">
+            <div class="card-group">
+                <div class="card">
+                  <img src="./assets/img/wisata/Air-Terjun-Putri-Maron.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Putri Maron</h5>
+                    <p class="card-text">Selain itu nama Putri Maron konon berasal dari nama seorang putri. 
+                        Menurut pemuka desa Depok, Suprapto, asal muasal nama Putri Maron, 
+                        ketika jaman dulu ada seorang Putri yang sedang melakukan perjalanan. 
+                        Ia berjalan tanpa kendaraan, hanya dengan berjalan kaki.</p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                  </div>
+                </div>
+                <div class="card">
+                  <img src="./assets/img/wisata/pantai-ngulungwetan.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Pantai Ngulungwetan</h5>
+                    <p class="card-text">Wisata Pantai Ngulungwetan di Trenggalek adalah salah satu tempat wisata 
+                        yang berada di desa ngulungwetan, kecamatan munjungan, kabupaten trenggalek, provinsi jawa timur, 
+                        negara indonesia. Wisata Pantai Ngulungwetan di Trenggalek adalah tempat wisata yang ramai dengan 
+                        wisatawan pada hari biasa maupun hari liburan.</p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                  </div>
+                </div>
+                <div class="card">
+                  <img src="./assets/img/wisata/goa-lowo-trenggalek-jawa-timur.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Guo Lowo</h5>
+                    <p class="card-text">Gua Lowo terletak di Desa Watuagung, Kecamatan Watulimo atau sekitar 27 Km dari 
+                        pusat Kota Trenggalek dan Tulungagung. Akses menuju destinasi wisata ini sangat mudah karena melewati 
+                        ruas jalan nasional dan searah menuju lokasi wisata Pantai Prigi dan Pasir Putih.</p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                  </div>
+                </div>
+            </div>
+            <div class="card-group">
+                <div class="card">
+                  <img src="./assets/img/wisata/Pantai-Pelang-Trenggalek.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Pantai Pelang</h5>
+                    <p class="card-text">Pantai Pelang memiliki luas area sekitar 20 ha, berada sekitar 56 Km barat daya Kota Trenggalek. 
+                        Pantai Pelang merupakan salah satu pantai yang masih alami dan terkenal dengan ombaknya yang besar. 
+                        Tidak jauh dari Pantai Pelang (sekitar 300m) arah utara terdapat air terjun yang indah berbentuk seperti 
+                        tirai yang terbuat dari air</p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                  </div>
+                </div>
+                <div class="card">
+                  <img src="./assets/img/wisata//prigi.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Pantai Prigi</h5>
+                    <p class="card-text">Pantai Prigi adalah pantai di pesisir selatan yang terletak di tepi Samudera Indonesia secara 
+                        administratif masuk wilayah Desa Tasimadu, Kecamatan Watulimo, Kabupaten Trenggalek, Jawa Timur, Indonesia. 
+                        Jarak dari pusat kota trenggalek sekitar 48km.</p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                  </div>
+                </div>
+                <div class="card">
+                  <img src="./assets/img/wisata/Rumah-Apung-Rembeng-Raya-humassetda.trenggalekkab.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Rumah Apung</h5>
+                    <p class="card-text">Rumah Apung Rembeng Raya berada perairan selatan Trenggalek, tepatnya di Desa Tasikmadu, 
+                        Kecamatan Watulimo Jawa Timur. Untuk menikmati wisata rumah apung, wisatawan dapat mengaksesnya dengan naik kapal wisata.
+                        Baca artikel detikTravel, "Akhir Pekan Unik di Trenggalek: Main ke Rumah Apung" </p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                  </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="scriptDOM.js"></script>
+</html>

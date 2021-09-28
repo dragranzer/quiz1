@@ -1,0 +1,18 @@
+.content{
+    width: 50%;
+    margin: auto;
+}
+
+.my-img img{
+    width: 50%;
+    height: auto;
+}
+
+.my-img{
+    text-align: center;
+}
+
+.desc{
+    background-color: rgb(65, 168, 216);
+    border-radius: 20px;
+}
